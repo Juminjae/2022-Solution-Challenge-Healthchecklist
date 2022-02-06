@@ -19,22 +19,21 @@
         android:textColor="@color/white"/>
 
     <Button
-        android:id="@+id/sign_in"
+        android:id="@+id/btn_sign_in"
         android:layout_width="300sp"
-        android:layout_height="60sp"
+        android:layout_height="55sp"
         android:layout_gravity="center"
         android:layout_marginTop="150sp"
         android:background="@drawable/first_visit_page_radius"
         android:text="sign in"
         android:fontFamily="sans-serif-thin"
-        android:textColorLink="#FFFFFF"
         android:textColor="#00F98D"
         android:textSize="25sp" />
 
     <Button
-        android:id="@+id/sign_up"
+        android:id="@+id/btn_sign_up"
         android:layout_width="300sp"
-        android:layout_height="60sp"
+        android:layout_height="55sp"
         android:layout_gravity="center"
         android:layout_marginTop="40sp"
         android:background="@drawable/first_visit_page_radius"

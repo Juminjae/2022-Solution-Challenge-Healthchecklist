@@ -6,7 +6,13 @@
         <entry key="..\:/Github/android/2022-Solution-Challenge-Healthchecklist/HealthChecklist/app/src/main/res/drawable/first_visit_page_radius.xml" value="0.201" />
         <entry key="..\:/Github/android/2022-Solution-Challenge-Healthchecklist/HealthChecklist/app/src/main/res/drawable/gradiant.xml" value="0.201" />
         <entry key="..\:/Github/android/2022-Solution-Challenge-Healthchecklist/HealthChecklist/app/src/main/res/drawable/ic_launcher_background.xml" value="0.201" />
+        <entry key="..\:/Github/android/2022-Solution-Challenge-Healthchecklist/HealthChecklist/app/src/main/res/drawable/sign_in_confirm_radius.xml" value="0.201" />
+        <entry key="..\:/Github/android/2022-Solution-Challenge-Healthchecklist/HealthChecklist/app/src/main/res/drawable/sign_in_radius.xml" value="0.201" />
+        <entry key="..\:/Github/android/2022-Solution-Challenge-Healthchecklist/HealthChecklist/app/src/main/res/layout/activity_login.xml" value="0.36614583333333334" />
         <entry key="..\:/Github/android/2022-Solution-Challenge-Healthchecklist/HealthChecklist/app/src/main/res/layout/activity_main.xml" value="0.358695652173913" />
+        <entry key="..\:/Github/android/2022-Solution-Challenge-Healthchecklist/HealthChecklist/app/src/main/res/layout/activity_sign_in.xml" value="0.30952380952380953" />
+        <entry key="..\:/Github/android/2022-Solution-Challenge-Healthchecklist/HealthChecklist/app/src/main/res/layout/activity_sign_up.xml" value="0.26329113924050634" />
+        <entry key="..\:/Github/android/2022-Solution-Challenge-Healthchecklist/HealthChecklist/app/src/main/res/layout/activity_splash.xml" value="0.36614583333333334" />
         <entry key="..\:/Github/android/2022-Solution-Challenge-Healthchecklist/HealthChecklist/app/src/main/res/layout/fragment_page2_search.xml" value="0.3515625" />
         <entry key="..\:/Github/android/2022-Solution-Challenge-Healthchecklist/HealthChecklist/app/src/main/res/layout/fragment_page3_video.xml" value="0.3515625" />
         <entry key="..\:/Github/android/2022-Solution-Challenge-Healthchecklist/HealthChecklist/app/src/main/res/layout/fragment_page4_setting.xml" value="0.3515625" />
