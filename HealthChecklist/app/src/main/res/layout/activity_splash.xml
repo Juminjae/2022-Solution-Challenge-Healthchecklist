@@ -19,7 +19,7 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:layout_marginTop="450sp"
-            android:text="   HEALTH\nCHECKLIST"
+            android:text="HEALTH\nCHECKLIST"
             android:fontFamily="sans-serif-thin"
             android:textSize="50dp"
             android:textColor="@color/white"/>

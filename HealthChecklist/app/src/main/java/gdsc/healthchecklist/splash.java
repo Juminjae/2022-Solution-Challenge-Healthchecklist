@@ -11,7 +11,7 @@ import android.view.animation.AnimationUtils;
 
 public class splash extends AppCompatActivity {
 
-    private final int splash_TIME = 3000; //Splash view time
+    private final int splash_TIME = 1000; //Splash view time
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -26,8 +26,5 @@ public class splash extends AppCompatActivity {
                 splash.this.finish();
             }
         },splash_TIME);
-    }
-    public void splash_trans(View view){
-        Animation animation = AnimationUtils.loadAnimation(this, R.anim.splash_trans);
     }
 }
