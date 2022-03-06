@@ -26,16 +26,13 @@ public class navigation extends AppCompatActivity {
 
         BottomNavigationView bottomNavigationView = findViewById(R.id.bottom_navigation_view);
 
-        FragmentTransaction transaction = fragmentManager.beginTransaction();
-
-
         bottomNavigationView.setOnNavigationItemSelectedListener(new BottomNavigationView.OnNavigationItemSelectedListener() {
             @Override
             public boolean onNavigationItemSelected(@NonNull MenuItem item) {
                 FragmentTransaction transaction = fragmentManager.beginTransaction();
                 switch (item.getItemId()){
                     case R.id.navigation_menu1:{
-
+                        break;
                     }
                     case R.id.navigation_menu2:{
                         transaction.replace(R.id.frame_layout, fragment_search).commitAllowingStateLoss();
