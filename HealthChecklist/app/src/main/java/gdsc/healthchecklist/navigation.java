@@ -9,6 +9,7 @@ import android.os.Bundle;
 import android.view.MenuItem;
 
 import com.google.android.material.bottomnavigation.BottomNavigationView;
+import com.google.android.material.navigation.NavigationBarView;
 
 public class navigation extends AppCompatActivity {
 
@@ -26,12 +27,16 @@ public class navigation extends AppCompatActivity {
 
         BottomNavigationView bottomNavigationView = findViewById(R.id.bottom_navigation_view);
 
-        bottomNavigationView.setOnNavigationItemSelectedListener(new BottomNavigationView.OnNavigationItemSelectedListener() {
+        FragmentTransaction transaction = fragmentManager.beginTransaction();
+        transaction.replace(R.id.frame_layout, fragment_main).commitAllowingStateLoss();
+
+        bottomNavigationView.setOnItemSelectedListener(new NavigationBarView.OnItemSelectedListener() {
             @Override
             public boolean onNavigationItemSelected(@NonNull MenuItem item) {
                 FragmentTransaction transaction = fragmentManager.beginTransaction();
                 switch (item.getItemId()){
                     case R.id.navigation_menu1:{
+                        transaction.replace(R.id.frame_layout, fragment_main).commitAllowingStateLoss();
                         break;
                     }
                     case R.id.navigation_menu2:{
