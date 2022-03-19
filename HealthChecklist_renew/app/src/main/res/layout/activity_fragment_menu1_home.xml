@@ -6,9 +6,71 @@
     android:layout_height="match_parent"
     android:orientation="vertical">
 
-    <Button
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@color/white"/>
+        android:layout_margin="15dp">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:text="USER"
+            android:elevation="10dp"
+            android:textColor="@color/black"
+            android:background="@drawable/button_radius"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_width="500px"
+            android:layout_height="500px"
+            android:layout_marginRight="5dp"
+            android:elevation="10dp"
+            android:background="@drawable/button_radius"
+            android:text="Checklist"
+            android:textColor="@color/black"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="500px"
+            android:elevation="10dp"
+            android:background="@drawable/button_radius"
+            android:text="Medication"
+            android:textColor="@color/black"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_width="500px"
+            android:layout_height="500px"
+            android:layout_marginRight="5dp"
+            android:elevation="10dp"
+            android:background="@drawable/button_radius"
+            android:text="Med Map"
+            android:textColor="@color/black"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="500px"
+            android:elevation="10dp"
+            android:background="@drawable/button_radius"
+            android:text="NULL"
+            android:textColor="@color/black"/>
+    </LinearLayout>
+
 
 </LinearLayout>
