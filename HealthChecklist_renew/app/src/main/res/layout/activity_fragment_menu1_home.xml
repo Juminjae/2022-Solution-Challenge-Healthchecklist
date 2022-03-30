@@ -4,6 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:layout_marginTop="30dp"
+    android:padding="5dp"
     android:orientation="vertical">
 
     <LinearLayout
@@ -15,8 +17,7 @@
             android:layout_width="match_parent"
             android:layout_height="200dp"
             android:text="USER"
-            android:elevation="10dp"
-            android:textColor="@color/black"
+            android:textColor="@color/white"
             android:background="@drawable/button_radius"/>
 
     </LinearLayout>
@@ -24,18 +25,16 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="15dp"
-        android:layout_marginRight="15dp"
+        android:layout_margin="15dp"
         android:orientation="horizontal">
 
         <Button
-            android:layout_width="500px"
+            android:layout_width="wrap_content"
             android:layout_height="500px"
-            android:layout_marginRight="5dp"
             android:elevation="10dp"
             android:background="@drawable/button_radius"
             android:text="Checklist"
-            android:textColor="@color/black"/>
+            android:textColor="@color/white"/>
 
         <Button
             android:layout_width="match_parent"
@@ -43,34 +42,23 @@
             android:elevation="10dp"
             android:background="@drawable/button_radius"
             android:text="Medication"
-            android:textColor="@color/black"/>
+            android:textColor="@color/white"/>
+
     </LinearLayout>
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="20dp"
-        android:layout_marginLeft="15dp"
-        android:layout_marginRight="15dp"
+        android:layout_margin="15dp"
         android:orientation="horizontal">
-
-        <Button
-            android:layout_width="500px"
-            android:layout_height="500px"
-            android:layout_marginRight="5dp"
-            android:elevation="10dp"
-            android:background="@drawable/button_radius"
-            android:text="Med Map"
-            android:textColor="@color/black"/>
 
         <Button
             android:layout_width="match_parent"
             android:layout_height="500px"
             android:elevation="10dp"
             android:background="@drawable/button_radius"
-            android:text="NULL"
-            android:textColor="@color/black"/>
+            android:text="Med Map"
+            android:textColor="@color/white"/>
+
     </LinearLayout>
-
-
 </LinearLayout>

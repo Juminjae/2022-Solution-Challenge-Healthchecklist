@@ -15,7 +15,16 @@ import android.view.ViewGroup;
 public class Fragment_menu1_Home extends Fragment {
 
     @Override
+    public void onCreate(@Nullable Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+    }
+
+    @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @NonNull ViewGroup container, @NonNull Bundle savedInstanceState) {
         return inflater.inflate(R.layout.activity_fragment_menu1_home, container, false);
     }
+
+
+
+
 }
