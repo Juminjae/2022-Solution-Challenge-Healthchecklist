@@ -4,9 +4,24 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:layout_marginTop="30dp"
-    android:padding="5dp"
     android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/black">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="@font/dosis_light"
+            android:text="Health Checklist"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="25dp" />
+
+    </LinearLayout>
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -17,6 +32,8 @@
             android:layout_width="match_parent"
             android:layout_height="200dp"
             android:text="USER"
+            android:fontFamily="@font/dosis_light"
+            android:textSize="20dp"
             android:textColor="@color/white"
             android:background="@drawable/button_radius"/>
 
@@ -29,6 +46,7 @@
         android:orientation="horizontal">
 
         <Button
+            android:id="@+id/Checklist_btn"
             android:layout_width="181dp"
             android:layout_height="500px"
             android:layout_marginRight="5dp"
@@ -41,6 +59,7 @@
             android:textSize="20dp" />
 
         <Button
+            android:id="@+id/Medical_video_btn"
             android:layout_width="match_parent"
             android:layout_height="500px"
             android:layout_marginLeft="5dp"
@@ -61,12 +80,13 @@
         android:orientation="horizontal">
 
         <Button
+            android:id="@+id/map_btn"
             android:layout_width="match_parent"
             android:layout_height="500px"
             android:background="@drawable/button_radius"
             android:drawableTop="@drawable/ic_baseline_location_on_24"
             android:elevation="10dp"
-            android:text="Med Map"
+            android:text="Medical Map"
             android:fontFamily="@font/dosis_light"
             android:textColor="@color/white"
             android:textSize="20dp" />
