@@ -29,19 +29,27 @@
         android:orientation="horizontal">
 
         <Button
-            android:layout_width="wrap_content"
+            android:layout_width="181dp"
             android:layout_height="500px"
-            android:elevation="10dp"
+            android:layout_marginRight="5dp"
             android:background="@drawable/button_radius"
+            android:drawableTop="@drawable/ic_baseline_check_24"
+            android:elevation="10dp"
             android:text="Checklist"
-            android:textColor="@color/white"/>
+            android:textColor="@color/white"
+            android:fontFamily="@font/dosis_light"
+            android:textSize="20dp" />
 
         <Button
             android:layout_width="match_parent"
             android:layout_height="500px"
+            android:layout_marginLeft="5dp"
             android:elevation="10dp"
             android:background="@drawable/button_radius"
-            android:text="Medication"
+            android:drawableTop="@drawable/ic_baseline_ondemand_video_24"
+            android:text="Medical video"
+            android:textSize="20dp"
+            android:fontFamily="@font/dosis_light"
             android:textColor="@color/white"/>
 
     </LinearLayout>
@@ -55,10 +63,13 @@
         <Button
             android:layout_width="match_parent"
             android:layout_height="500px"
-            android:elevation="10dp"
             android:background="@drawable/button_radius"
+            android:drawableTop="@drawable/ic_baseline_location_on_24"
+            android:elevation="10dp"
             android:text="Med Map"
-            android:textColor="@color/white"/>
+            android:fontFamily="@font/dosis_light"
+            android:textColor="@color/white"
+            android:textSize="20dp" />
 
     </LinearLayout>
 </LinearLayout>
