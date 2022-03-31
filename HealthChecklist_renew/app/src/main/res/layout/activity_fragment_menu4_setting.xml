@@ -16,5 +16,4 @@
         android:fontFamily="@font/dosis_light"
         android:textSize="25dp"
         android:textColor="@color/black"/>
-
 </LinearLayout>
